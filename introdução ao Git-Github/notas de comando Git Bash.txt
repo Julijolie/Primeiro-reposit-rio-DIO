@@ -1,0 +1,28 @@
+PARA LISTAR ARQUIVOS DENTRO DE UMA PASTA:
+ls
+
+PARA ACESSAR A APASTA:
+cd [nome da pasta]
+
+PARA CLONAR REPOSITÓRIO:
+Git clone [fn+shift+insert]  (para colar o código, já que o terminal não aceita o [ctrl+v])
+Git add . (para add o arquivo a pasta)
+Git add -A (para add todos os arquivos a pasta)
+Git commit -m ‘[mensagem]”
+Git push origin main (pra que o conteúdo seja de fato add ao github)
+
+PARA LIMPEZA DE TERMINAL:
+contl + L
+
+PARA ADICIONAR AUTOR A UMA NOVA PASTA CRIADA:
+git config --global user.email "[digite o seu e-mail]"
+git config --global user.name "[digite seu nome]
+
+PARA CRIAR UMA NOVA PASTA:
+mkdir "[nome da pasta]"
+
+PARA RETOCEDER:
+cd ..
+
+PARA EXLUIR AQUIVO:
+git rm [nome do arquivo que deseja excluir]
